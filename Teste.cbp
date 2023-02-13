@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Teste" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Teste" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add library="libsfml-graphics-d" />
+					<Add library="libsfml-audio-d" />
+					<Add library="libsfml-network-d" />
+					<Add library="libsfml-window-d" />
+					<Add library="libsfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Teste" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/afons/OneDrive/Ambiente de Trabalho/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/afons/OneDrive/Ambiente de Trabalho/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="Bispo.cpp" />
+		<Unit filename="Bispo.h" />
+		<Unit filename="Cavalo.cpp" />
+		<Unit filename="Cavalo.h" />
+		<Unit filename="Equipa.cpp" />
+		<Unit filename="Equipa.h" />
+		<Unit filename="Nulidade.cpp" />
+		<Unit filename="Nulidade.h" />
+		<Unit filename="Peca.cpp" />
+		<Unit filename="Peca.h" />
+		<Unit filename="Piao.cpp" />
+		<Unit filename="Piao.h" />
+		<Unit filename="Rainha.cpp" />
+		<Unit filename="Rainha.h" />
+		<Unit filename="Rei.cpp" />
+		<Unit filename="Rei.h" />
+		<Unit filename="Sistema.cpp" />
+		<Unit filename="Sistema.h" />
+		<Unit filename="Tab.cpp" />
+		<Unit filename="Tab.h" />
+		<Unit filename="Torre.cpp" />
+		<Unit filename="Torre.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="openal32.dll" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
